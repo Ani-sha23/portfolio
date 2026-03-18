@@ -1,69 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Anisha Garg | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <header>
-  <h1>Anisha Garg</h1>
-  <p>AI/ML Engineer | Backend Developer</p>
+  <h2 class="logo">Anisha</h2>
   <nav>
+    <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Hi, I'm <span>Anisha Garg</span></h1>
+  <p>AI & ML Enthusiast | Developer</p>
+  <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
   <p>
-    Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning.
-    Passionate about building scalable backend systems and intelligent AI solutions.
+    I'm a Computer Science student specializing in Artificial Intelligence and Machine Learning.
+    I love building scalable systems, solving real-world problems, and creating impactful AI solutions.
   </p>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Python, C++, SQL</li>
-    <li>Data Structures & Algorithms</li>
-    <li>Machine Learning, Deep Learning</li>
-    <li>TensorFlow, PyTorch, OpenCV</li>
-    <li>Backend Development & REST APIs</li>
-  </ul>
-</section>
-
+<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
 
-  <div class="card">
-    <h3>Lost & Found AI Matcher</h3>
-    <p>AI-based image matching system using OpenCV & TensorFlow.</p>
-  </div>
+  <div class="project-container">
 
-  <div class="card">
-    <h3>Driver Drowsiness Detection</h3>
-    <p>Real-time fatigue detection using EAR algorithm & MediaPipe.</p>
-  </div>
+    <div class="card">
+      <h3>Lost & Found Matcher</h3>
+      <p>AI-based image matching system using computer vision.</p>
+    </div>
 
-  <div class="card">
-    <h3>CNN Image Classifier</h3>
-    <p>Achieved 92% accuracy using deep learning techniques.</p>
-  </div>
+    <div class="card">
+      <h3>Driver Drowsiness Detection</h3>
+      <p>Real-time fatigue detection using OpenCV & MediaPipe.</p>
+    </div>
 
+    <div class="card">
+      <h3>CNN Image Classifier</h3>
+      <p>Deep learning model achieving high accuracy.</p>
+    </div>
+
+  </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: anishagarg2806@gmail.com</p>
   <p>
-    <a href="https://github.com/Ani-sha23">GitHub</a> |
-    <a href="https://linkedin.com/in/anisha-garg-b90918349">LinkedIn</a>
+    <a href="https://github.com/Ani-sha23" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/anisha-garg-b90918349" target="_blank">LinkedIn</a>
   </p>
 </section>
 
@@ -71,6 +74,5 @@
   <p>© 2026 Anisha Garg</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
