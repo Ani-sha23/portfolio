@@ -62,13 +62,6 @@ A portfolio website typically showcases your skills, projects, and experience in
 
 ---
 
-## 📄 Resume
-
-You can view my resume here:  
-👉 :contentReference[oaicite:1]{index=1}
-
----
-
 ## ⭐ Show Your Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
