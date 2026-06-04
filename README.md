@@ -2,7 +2,7 @@
 <h3 align="center">AI/ML Engineer | Software Developer</h3>
 
 <p align="center">
-  <a href="https://anishagargportfolio.netlify.app/"/a> •
+  <a href="https://anishagargportfolio.netlify.app/"><b>🌐 Portfolio</b></a> •
   <a href="https://linkedin.com/in/anisha-garg-b90918349"><b>LinkedIn</b></a> •
   <a href="https://github.com/Ani-sha23"><b>GitHub</b></a> •
   <a href="https://leetcode.com/anisha_47"><b>LeetCode</b></a>
